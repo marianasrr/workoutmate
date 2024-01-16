@@ -1,0 +1,107 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+  background-color: #fff;
+  color: black; 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  z-index: 2; 
+  position: relative; 
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.logo img {
+  max-height: 90px; 
+}
+
+.nav-bar {
+  position: absolute;
+  top: 50%; 
+  right: 10%;
+  transform: translateY(-50%); 
+}
+
+.nav-bar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex; 
+  color: red; 
+}
+
+.nav-bar ul li {
+  display: inline;
+  margin-right: 20px; 
+}
+
+.nav-bar ul li:last-child {
+  margin-right: 0; 
+}
+.nav-bar a {
+  text-decoration: none;
+  color: red; 
+}
+
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+h1 {
+  color: red;
+    font-size: 40px;
+}
+
+label {
+    font-size: 16px;
+}
+
+select {
+    font-size: 16px;
+    padding: 5px;
+    margin-top: 10px;
+    color: rgb(26, 6, 6);
+
+}
+
+div:not([class]){
+  border: 2px solid red;
+  padding: 20px ;
+  border-radius: 10px;
+  background-color: #f0f0f0;
+}
+h3{
+  color: red;
+  font-size: 34px;
+}
+
+div p:nth-child(2) {
+  font-weight: bold;
+  font-family:initial;
+  font-size: 25px;
+}
+
+div p:nth-child(odd):before {
+  content: "• ";
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+  font-family: monospace;
+}
+
+
+
+

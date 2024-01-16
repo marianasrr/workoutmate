@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Dashboard</title>
+    <link rel="stylesheet" type="text/css" href="WorkoutMate.css">
+</head>
+<body>  
+    <header>
+        <div class="logo">
+            <img src="Logo.png" alt="Logo">
+        </div>
+        <nav class="nav-bar">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li id="google_translate_element">Language</li>
+                <li><a href="login.php">Logout</a></li>
+
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <section class="welcome-section">
+            <h1>Welcome to your account</h1>
+            <p>Choose what you would like to access or see:</p>
+            
+            <div class="options">
+                <div class="option" onclick="showExercises()">
+                    <h2>Exercises</h2>
+                    <p>Explore a wide range of meticulously crafted exercises designed to target every muscle group in your body.<br> Whether you're looking to build strength, increase flexibility, or simply stay active, our exercise library has something for everyone.</p>
+                </div>
+                <div class="option" onclick="showWorkoutRoutines()">
+                    <h2>Workout Routines</h2>
+                    <p>Discover expertly curated workout routines that cater to your fitness goals, whether it's bulking up, getting lean, or improving endurance.<br> Our routines are designed to challenge and motivate you every step of the way.</p>
+                </div>
+                <div class="option" onclick="showWorkoutTips()">
+                    <h2>Workout Tips</h2>
+                    <p>Unlock the secrets to a healthier lifestyle with our collection of workout tips and advice.<br> From nutrition hacks to injury prevention, our tips will guide you on your path to a fitter, happier you.</p>
+                </div>
+            </div>
+        </section>
+       
+    </div>
+
+        <footer class="footer with-background">
+            <div class="footer-container">
+                <div class="social-media">
+                    <a href="https://www.facebook.com/yourfacebookpage" target="_blank"><img src="facebook-icon.png" alt="Facebook"></a>
+                    <a href="https://www.instagram.com/yourinstagramprofile" target="_blank"><img src="instagram-icon.png" alt="Instagram"></a>
+                </div>
+                <p>&copy; 2023 Workout Mate. All rights reserved.</p>
+        
+                
+                <section id="about-us">
+                    <div class="about-us-content">
+                        <div class="about-header">
+                            <h2>About Us</h2>
+                            <div class="toggle-button">+</div>
+                        </div>
+                        <p class="hidden-text">At Workout Mate, we are passionate about fitness and dedicated to helping
+                            you achieve your health and wellness goals. <br> Our mission is to be your ultimate fitness 
+                            companion, providing you with the tools, knowledge, and motivation to lead a healthier,
+                            happier life.<br>Whether you're a seasoned athlete or just starting your fitness journey, our
+                            platform is designed to cater to all levels of expertise. <br> We believe that fitness should be
+                            accessible, enjoyable, and tailored to your unique needs. <br>Join us in this empowering journey
+                            towards a stronger, fitter, and more confident you. Together, we'll make fitness a way of
+                            life.
+                        </p>
+                    </div>
+                </section>
+            </div>
+        </footer>
+    
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({pageLanguage: 'en', includedLanguages: 'en,fr,es', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
+        }
+    </script>
+    <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <script>
+        window.embeddedChatbotConfig = {
+        chatbotId: "qsTYNQCMt76i0mE0mXjpz",
+        domain: "www.chatbase.co"
+        }
+        </script>
+        <script
+        src="https://www.chatbase.co/embed.min.js"
+        chatbotId="qsTYNQCMt76i0mE0mXjpz"
+        domain="www.chatbase.co"
+        defer>
+        </script>
+    <script src="WorkoutMate.js"></script>
+</body>
+</html>

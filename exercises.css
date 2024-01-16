@@ -1,0 +1,131 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #fff;
+    color: black; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    z-index: 2; 
+    position: relative; 
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.logo img {
+    max-height: 90px; 
+}
+
+.nav-bar {
+    position: absolute;
+    top: 50%; 
+    right: 10%;
+    transform: translateY(-50%); 
+}
+
+.nav-bar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex; 
+    color: red; 
+}
+
+.nav-bar ul li {
+    display: inline;
+    margin-right: 20px; 
+}
+
+.nav-bar ul li:last-child {
+    margin-right: 0; 
+}
+.nav-bar a {
+    text-decoration: none;
+    color: red; 
+}
+
+.container {
+    text-align: center;
+}
+
+
+.exercise-types {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+
+.exercise-type {
+    flex: 1;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.exercise-type {
+    cursor: pointer;
+}
+.exercise-type .image-container img {
+    width: 100%;
+}
+.exercise-type .type-name {
+    font-weight: bold;
+}
+.exercise-card {
+    display: none;
+}
+.exercise-card img {
+    width: 200px; 
+    height: 150px; 
+}
+.image-container {
+    width: 100px;
+    height: 100px;
+    background-color: #f0f0f0;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+
+.image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.3s;
+}
+
+
+.type-name {
+    margin-top: 10px;
+}
+
+
+.image-container:hover {
+    background-color: red;
+}
+
+
+.image-container:hover img {
+    opacity: 0.7;
+}
+
+.exercise {
+    border: 1px solid #ff0000; 
+    padding: 10px;
+    margin-bottom: 10px; 
+}
+.exercise img {
+    max-width: 50%;
+    height: auto;} 
+    
